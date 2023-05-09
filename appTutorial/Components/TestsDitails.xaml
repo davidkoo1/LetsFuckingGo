@@ -1,0 +1,77 @@
+﻿<UserControl x:Class="appTutorial.Components.TestsDitails"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:appTutorial.Components"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid>
+        <Border BorderBrush="{StaticResource BorderPrimary}" BorderThickness="1" CornerRadius="5" Padding="20" SnapsToDevicePixels="True">
+            <Grid>
+                <Grid>
+                    <Grid.Style>
+                        <Style TargetType="Grid">
+                            <Setter Property="Visibility" Value="Collapsed"/>
+                            <Style.Triggers>
+                                <DataTrigger Binding="{Binding HasSelectedTest}" Value="False">
+                                    <Setter Property="Visibility" Value="Visible"/>
+                                </DataTrigger>
+                            </Style.Triggers>
+                        </Style>
+                    </Grid.Style>
+                    <TextBlock FontSize="32" TextWrapping="WrapWithOverflow" Text="Please select a Test to see a ditails"/>
+                </Grid>
+                <Grid Grid.IsSharedSizeScope="True">
+                    <!--Сделать отображение (если учитель) только тех пользователей которых он зарегестрировал-->
+                    <Grid.Style>
+                        <Style TargetType="Grid">
+                            <Setter Property="Visibility" Value="Collapsed"/>
+                            <Style.Triggers>
+                                <DataTrigger Binding="{Binding HasSelectedTest}" Value="True">
+                                    <Setter Property="Visibility" Value="Visible"/>
+                                </DataTrigger>
+                            </Style.Triggers>
+                        </Style>
+                    </Grid.Style>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                    </Grid.RowDefinitions>
+
+
+                        <TextBlock Grid.Row="0" Text="{Binding Testname}" FontSize="24"/>
+
+
+                        <Grid Grid.Row="1" Margin="0 20 0 0">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="auto" SharedSizeGroup="Label"/>
+                            <ColumnDefinition Width="auto"/>
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Grid.Column="0" Text="TestDiscription " FontWeight="Bold"/>
+                        <TextBlock Grid.Column="1" Margin="20 0 0 0" Text="{Binding TestDiscription}"/>
+                    </Grid>
+                    <Grid Grid.Row="2" Margin="0 20 0 0">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="auto" SharedSizeGroup="Label"/>
+                            <ColumnDefinition Width="auto" />
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Grid.Column="0" Text="TestTime" FontWeight="Bold"/>
+                        <TextBlock Grid.Column="1" Margin="20 0 0 0" Text="{Binding TestTime}"/>
+                    </Grid>
+                    <Grid Grid.Row="3" Margin="0 20 0 0">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="auto" SharedSizeGroup="Label"/>
+                            <ColumnDefinition Width="auto"/>
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Grid.Column="0" Text="AutorID" FontWeight="Bold"/>
+                        <TextBlock Grid.Column="1" Margin="20 0 0 0" Text="{Binding AutorID}"/>
+                    </Grid>
+                </Grid>
+            </Grid>
+        </Border>
+
+    </Grid>
+</UserControl>

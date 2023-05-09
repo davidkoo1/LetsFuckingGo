@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Components\TestDitailsForm.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Components\TestListingItem.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Components\TestsDitails.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Components\TestsListing.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Components\UserDitailsForm.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Components\UserListingItem.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Components\UsersDitails.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Components\UsersListing.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\AddTestView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\AddUserView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\EditTestView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\EditUserView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\TestsView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\UsersView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="Components\TestDitailsForm.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Components\TestListingItem.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Components\TestsDitails.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Components\TestsListing.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Components\UserDitailsForm.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Components\UserListingItem.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Components\UsersDitails.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Components\UsersListing.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\AddTestView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\AddUserView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\EditTestView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\EditUserView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\TestsView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\UsersView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,51 @@
+﻿<Window x:Class="appTutorial.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:appTutorial" 
+        xmlns:vms="clr-namespace:appTutorial.ViewModels"
+        xmlns:view="clr-namespace:appTutorial.View"
+        xmlns:custom="clr-namespace:ModalControl;assembly=ModalControl"
+        mc:Ignorable="d"
+        Title="MainWindow" 
+        Height="450"
+        Width="800"
+        FontSize="14">
+   <!-- Test //1-Cancel not work, 2 - Submit enable, 3 - Long Discrip, 4 - connect AddView, 5 - unSelected-->
+   <!-- <ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto">-->
+   <!-- <Window.Resources>
+        <DataTemplate DataType="{x:Type vms:AddTestViewModel}"/>
+        <view:AddTest x:Key="addTestView"/> 
+    </Window.Resources>
+    <Grid>
+        <custom:Modal Panel.ZIndex="1" IsOpen="{Binding IsModalOpen}" >
+            <ContentControl Margin="25" Content="{StaticResource addTestView}" Width="250"/>
+        </custom:Modal>
+        <view:TestsView Margin="25" DataContext="{Binding TestsViewModel}"/>
+    </Grid>
+    -->
+    <Window.Resources>
+        <DataTemplate DataType="{x:Type vms:AddTestViewModel}">
+            <view:AddTestView/>
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type vms:AddUserViewModel}">
+            <view:AddUserView/>
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type vms:EditUserViewModel}">
+            <view:EditUserView/>
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type vms:EditTestViewModel}">
+            <view:EditTestView/>
+        </DataTemplate>
+    </Window.Resources>
+    
+    <Grid >
+    <custom:Modal Panel.ZIndex="1" IsOpen="{Binding IsModalOpen}">
+        <ContentControl Margin="50 25" Content="{Binding CurrentModalViewModel}" Width="250"/>
+    </custom:Modal>
+        <!--<view:UsersView Margin="25" DataContext="{Binding UsersViewModel}"/>-->
+        <view:TestsView Margin="25" DataContext="{Binding TestsViewModel}"/>
+    </Grid>
+   
+</Window>

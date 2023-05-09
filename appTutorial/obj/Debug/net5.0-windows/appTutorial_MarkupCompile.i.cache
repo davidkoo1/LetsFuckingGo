@@ -1,0 +1,20 @@
+﻿appTutorial
+1.0.0.0
+
+winexe
+C#
+.cs
+C:\Users\sverc\OneDrive\Рабочий стол\appTutorial\appTutorial\obj\Debug\net5.0-windows\
+appTutorial
+none
+false
+TRACE;DEBUG;NET;NET5_0;NETCOREAPP
+C:\Users\sverc\OneDrive\Рабочий стол\appTutorial\appTutorial\App.xaml
+15-75569683
+
+49-1448552383
+2291987032484
+Components\TestDitailsForm.xaml;Components\TestListingItem.xaml;Components\TestsDitails.xaml;Components\TestsListing.xaml;Components\UserDitailsForm.xaml;Components\UserListingItem.xaml;Components\UsersDitails.xaml;Components\UsersListing.xaml;MainWindow.xaml;View\AddTestView.xaml;View\AddUserView.xaml;View\EditTestView.xaml;View\EditUserView.xaml;View\TestsView.xaml;View\UsersView.xaml;
+
+True
+
