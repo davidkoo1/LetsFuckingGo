@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET5_0;NETCOREAPP
 C:\Users\sverc\OneDrive\Рабочий стол\appTutorial\appTutorial\App.xaml
-15-75569683
+151839922612
 
-49-1448552383
+54-45776160
 2291987032484
-Components\TestDitailsForm.xaml;Components\TestListingItem.xaml;Components\TestsDitails.xaml;Components\TestsListing.xaml;Components\UserDitailsForm.xaml;Components\UserListingItem.xaml;Components\UsersDitails.xaml;Components\UsersListing.xaml;MainWindow.xaml;View\AddTestView.xaml;View\AddUserView.xaml;View\EditTestView.xaml;View\EditUserView.xaml;View\TestsView.xaml;View\UsersView.xaml;
+Components\TestsComponents\TestDitailsForm.xaml;Components\TestsComponents\TestListingItem.xaml;Components\TestsComponents\TestsDitails.xaml;Components\TestsComponents\TestsListing.xaml;Components\UsersComponents\UserDitailsForm.xaml;Components\UsersComponents\UserListingItem.xaml;Components\UsersComponents\UsersDitails.xaml;Components\UsersComponents\UsersListing.xaml;MainWindow.xaml;View\TestsView\AddTestView.xaml;View\TestsView\EditTestView.xaml;View\TestsView\TestsView.xaml;View\UsersView\AddUserView.xaml;View\UsersView\EditUserView.xaml;View\UsersView\UsersView.xaml;
 
 True
 

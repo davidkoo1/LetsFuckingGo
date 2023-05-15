@@ -14,9 +14,9 @@ namespace appTutorial.Domain.Models
         public string Testname { get; }
         public string TestDiscription { get; }
         public int TestTime { get; }
-        public int AutorID { get; }
+        public Guid AutorID { get; }
 
-        public Test(Guid TestID, string Testname, string TestDiscription, int TestTime, int AutorID)
+        public Test(Guid TestID, string Testname, string TestDiscription, int TestTime, Guid AutorID)
         {
             this.TestID = TestID;
             this.Testname = Testname;

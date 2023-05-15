@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "IKjCCZyXB7CSVuo0TAhmoLgKEXehE7zql0p9Sk7eD/ftkflDdPREciDUMBkPCtzhP4saDzgBfTFhYoFCDtby5Q==",
+  "dgSpecHash": "tanbEGu+hgjrkFj0Ov8ak8i20es1PC5aqrpHG4xvoKt4P6Rx3DAPzGb7e2XWA1285enfGx8kYQ4HRq0oRBTTHg==",
   "success": true,
   "projectFilePath": "C:\\Users\\sverc\\OneDrive\\Рабочий стол\\appTutorial\\appTutorial.EntityFramework\\appTutorial.EntityFramework.csproj",
   "expectedPackageFiles": [
@@ -18,6 +18,7 @@
     "C:\\Users\\sverc\\.nuget\\packages\\microsoft.entityframeworkcore.sqlite\\5.0.11\\microsoft.entityframeworkcore.sqlite.5.0.11.nupkg.sha512",
     "C:\\Users\\sverc\\.nuget\\packages\\microsoft.entityframeworkcore.sqlite.core\\5.0.11\\microsoft.entityframeworkcore.sqlite.core.5.0.11.nupkg.sha512",
     "C:\\Users\\sverc\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\5.0.11\\microsoft.entityframeworkcore.sqlserver.5.0.11.nupkg.sha512",
+    "C:\\Users\\sverc\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\5.0.11\\microsoft.entityframeworkcore.tools.5.0.11.nupkg.sha512",
     "C:\\Users\\sverc\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\5.0.0\\microsoft.extensions.caching.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\sverc\\.nuget\\packages\\microsoft.extensions.caching.memory\\5.0.0\\microsoft.extensions.caching.memory.5.0.0.nupkg.sha512",
     "C:\\Users\\sverc\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\5.0.0\\microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",

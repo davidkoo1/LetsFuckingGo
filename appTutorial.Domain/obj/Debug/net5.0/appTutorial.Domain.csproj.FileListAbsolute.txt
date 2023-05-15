@@ -2,7 +2,6 @@ C:\Users\sverc\OneDrive\Рабочий стол\appTutorial\appTutorial.Domain\b
 C:\Users\sverc\OneDrive\Рабочий стол\appTutorial\appTutorial.Domain\bin\Debug\net5.0\appTutorial.Domain.dll
 C:\Users\sverc\OneDrive\Рабочий стол\appTutorial\appTutorial.Domain\bin\Debug\net5.0\ref\appTutorial.Domain.dll
 C:\Users\sverc\OneDrive\Рабочий стол\appTutorial\appTutorial.Domain\bin\Debug\net5.0\appTutorial.Domain.pdb
-C:\Users\sverc\OneDrive\Рабочий стол\appTutorial\appTutorial.Domain\obj\Debug\net5.0\appTutorial.Domain.csproj.AssemblyReference.cache
 C:\Users\sverc\OneDrive\Рабочий стол\appTutorial\appTutorial.Domain\obj\Debug\net5.0\appTutorial.Domain.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\sverc\OneDrive\Рабочий стол\appTutorial\appTutorial.Domain\obj\Debug\net5.0\appTutorial.Domain.AssemblyInfoInputs.cache
 C:\Users\sverc\OneDrive\Рабочий стол\appTutorial\appTutorial.Domain\obj\Debug\net5.0\appTutorial.Domain.AssemblyInfo.cs
@@ -10,3 +9,4 @@ C:\Users\sverc\OneDrive\Рабочий стол\appTutorial\appTutorial.Domain\o
 C:\Users\sverc\OneDrive\Рабочий стол\appTutorial\appTutorial.Domain\obj\Debug\net5.0\appTutorial.Domain.dll
 C:\Users\sverc\OneDrive\Рабочий стол\appTutorial\appTutorial.Domain\obj\Debug\net5.0\ref\appTutorial.Domain.dll
 C:\Users\sverc\OneDrive\Рабочий стол\appTutorial\appTutorial.Domain\obj\Debug\net5.0\appTutorial.Domain.pdb
+C:\Users\sverc\OneDrive\Рабочий стол\appTutorial\appTutorial.Domain\obj\Debug\net5.0\appTutorial.Domain.csproj.AssemblyReference.cache

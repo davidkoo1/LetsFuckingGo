@@ -44,8 +44,8 @@
     <custom:Modal Panel.ZIndex="1" IsOpen="{Binding IsModalOpen}">
         <ContentControl Margin="50 25" Content="{Binding CurrentModalViewModel}" Width="250"/>
     </custom:Modal>
-        <!--<view:UsersView Margin="25" DataContext="{Binding UsersViewModel}"/>-->
-        <view:TestsView Margin="25" DataContext="{Binding TestsViewModel}"/>
+        <view:UsersView Margin="25" DataContext="{Binding UsersViewModel}"/>
+       <!-- <view:TestsView Margin="25" DataContext="{Binding TestsViewModel}"/>-->
     </Grid>
    
 </Window>

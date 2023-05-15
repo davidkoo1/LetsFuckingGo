@@ -1,18 +1,18 @@
 ﻿
 FC:\Users\sverc\OneDrive\Рабочий стол\appTutorial\appTutorial\App.xaml;;
-FC:\Users\sverc\OneDrive\Рабочий стол\appTutorial\appTutorial\Components\TestDitailsForm.xaml;;
-FC:\Users\sverc\OneDrive\Рабочий стол\appTutorial\appTutorial\Components\TestListingItem.xaml;;
-FC:\Users\sverc\OneDrive\Рабочий стол\appTutorial\appTutorial\Components\TestsDitails.xaml;;
-FC:\Users\sverc\OneDrive\Рабочий стол\appTutorial\appTutorial\Components\TestsListing.xaml;;
-FC:\Users\sverc\OneDrive\Рабочий стол\appTutorial\appTutorial\Components\UserDitailsForm.xaml;;
-FC:\Users\sverc\OneDrive\Рабочий стол\appTutorial\appTutorial\Components\UserListingItem.xaml;;
-FC:\Users\sverc\OneDrive\Рабочий стол\appTutorial\appTutorial\Components\UsersDitails.xaml;;
-FC:\Users\sverc\OneDrive\Рабочий стол\appTutorial\appTutorial\Components\UsersListing.xaml;;
+FC:\Users\sverc\OneDrive\Рабочий стол\appTutorial\appTutorial\Components\TestsComponents\TestDitailsForm.xaml;;
+FC:\Users\sverc\OneDrive\Рабочий стол\appTutorial\appTutorial\Components\TestsComponents\TestListingItem.xaml;;
+FC:\Users\sverc\OneDrive\Рабочий стол\appTutorial\appTutorial\Components\TestsComponents\TestsDitails.xaml;;
+FC:\Users\sverc\OneDrive\Рабочий стол\appTutorial\appTutorial\Components\TestsComponents\TestsListing.xaml;;
+FC:\Users\sverc\OneDrive\Рабочий стол\appTutorial\appTutorial\Components\UsersComponents\UserDitailsForm.xaml;;
+FC:\Users\sverc\OneDrive\Рабочий стол\appTutorial\appTutorial\Components\UsersComponents\UserListingItem.xaml;;
+FC:\Users\sverc\OneDrive\Рабочий стол\appTutorial\appTutorial\Components\UsersComponents\UsersDitails.xaml;;
+FC:\Users\sverc\OneDrive\Рабочий стол\appTutorial\appTutorial\Components\UsersComponents\UsersListing.xaml;;
 FC:\Users\sverc\OneDrive\Рабочий стол\appTutorial\appTutorial\MainWindow.xaml;;
-FC:\Users\sverc\OneDrive\Рабочий стол\appTutorial\appTutorial\View\AddTestView.xaml;;
-FC:\Users\sverc\OneDrive\Рабочий стол\appTutorial\appTutorial\View\AddUserView.xaml;;
-FC:\Users\sverc\OneDrive\Рабочий стол\appTutorial\appTutorial\View\EditTestView.xaml;;
-FC:\Users\sverc\OneDrive\Рабочий стол\appTutorial\appTutorial\View\EditUserView.xaml;;
-FC:\Users\sverc\OneDrive\Рабочий стол\appTutorial\appTutorial\View\TestsView.xaml;;
-FC:\Users\sverc\OneDrive\Рабочий стол\appTutorial\appTutorial\View\UsersView.xaml;;
+FC:\Users\sverc\OneDrive\Рабочий стол\appTutorial\appTutorial\View\TestsView\AddTestView.xaml;;
+FC:\Users\sverc\OneDrive\Рабочий стол\appTutorial\appTutorial\View\TestsView\EditTestView.xaml;;
+FC:\Users\sverc\OneDrive\Рабочий стол\appTutorial\appTutorial\View\TestsView\TestsView.xaml;;
+FC:\Users\sverc\OneDrive\Рабочий стол\appTutorial\appTutorial\View\UsersView\AddUserView.xaml;;
+FC:\Users\sverc\OneDrive\Рабочий стол\appTutorial\appTutorial\View\UsersView\EditUserView.xaml;;
+FC:\Users\sverc\OneDrive\Рабочий стол\appTutorial\appTutorial\View\UsersView\UsersView.xaml;;
 

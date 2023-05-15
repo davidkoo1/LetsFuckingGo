@@ -22,8 +22,8 @@ namespace appTutorial.EntityFramework.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("TEXT");
 
-                    b.Property<int>("AutorID")
-                        .HasColumnType("INTEGER");
+                    b.Property<Guid>("AutorID")
+                        .HasColumnType("TEXT");
 
                     b.Property<string>("TestDiscription")
                         .HasColumnType("TEXT");
@@ -36,7 +36,49 @@ namespace appTutorial.EntityFramework.Migrations
 
                     b.HasKey("TestID");
 
+                    b.HasIndex("AutorID");
+
                     b.ToTable("Tests");
+                });
+
+            modelBuilder.Entity("appTutorial.EntityFramework.DTOs.UserDto", b =>
+                {
+                    b.Property<Guid>("UserID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("UserLogin")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("UserPassword")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("UserStanding")
+                        .HasColumnType("TEXT");
+
+                    b.Property<bool>("UserStatus")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("UserSurname")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Username")
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("UserID");
+
+                    b.ToTable("Users");
+                });
+
+            modelBuilder.Entity("appTutorial.EntityFramework.DTOs.TestDto", b =>
+                {
+                    b.HasOne("appTutorial.EntityFramework.DTOs.UserDto", "User")
+                        .WithMany()
+                        .HasForeignKey("AutorID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("User");
                 });
 #pragma warning restore 612, 618
         }

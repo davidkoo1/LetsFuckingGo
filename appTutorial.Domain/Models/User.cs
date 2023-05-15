@@ -8,7 +8,7 @@ namespace appTutorial.Domain.Models
 {
     public class User
     {
-        public int UserID { get; }
+        public Guid UserID { get; }
         public string Username { get; }
         public string UserSurname { get; }
         public string UserLogin { get; }
@@ -16,7 +16,7 @@ namespace appTutorial.Domain.Models
         public string UserStanding { get; }
         public bool UserStatus { get; }
 
-        public User(int UserID, string Username, string UserSurname, string UserLogin, string UserPassword, string UserStanding, bool UserStatus)
+        public User(Guid UserID, string Username, string UserSurname, string UserLogin, string UserPassword, string UserStanding, bool UserStatus)
         {
             this.UserID = UserID;
             this.Username = Username;
